@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": ".NET Core Launch (console)",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "program": "${workspaceFolder}/src/OneNoteInstance/bin/Debug/net9.0/OneNoteInstance.dll",
+        "args": [
+            "onenote:https://d.docs.live.net/ac0ce4fdc0042b4b/Xpirit/BK%20Xpirit%20Log%20Notebook/Current%20Week.one#Keyboard%20problem&section-id={3210E98D-391F-48FA-A545-3FA2765CE8CA}&page-id={A0525BFA-3498-4F80-9589-20A9946AB409}&end"
+        ],
+        "cwd": "${workspaceFolder}",
+        "stopAtEntry": false,
+        "console": "internalConsole"
+      }
+    ]
+  }
