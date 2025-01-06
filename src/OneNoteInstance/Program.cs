@@ -25,6 +25,7 @@ if (string.IsNullOrEmpty(oneNoteExePath))
 Process? oneNoteProcess = Process.Start(new ProcessStartInfo
     {
         FileName = oneNoteExePath,
+        Arguments = "/nologo",
         UseShellExecute = true
     });
 
