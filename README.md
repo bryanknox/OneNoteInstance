@@ -55,3 +55,8 @@ cd src/OneNoteInstance
 
 dotnet build
 ```
+
+## Technologies Used
+
+- .NET 10.0
+- C#
